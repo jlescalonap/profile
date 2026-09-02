@@ -1,64 +1,87 @@
-# 👋 Hi, I'm José Escalona
+<h1 align="center">José Luis Escalona</h1>
 
-Full Stack Developer with hands-on experience delivering **scalable, high-performance web applications** in both traditional and Web3 ecosystems. Strong expertise in **MERN**, modern frontend frameworks, blockchain integrations, and backend architecture. Born in 🇻🇪 Venezuela, currently based in 🇧🇷 Brazil.
+<p align="center">
+  <strong>Backend &amp; AI Engineer</strong> · Multi-tenant SaaS platforms<br>
+  Founder &amp; Lead Engineer at <a href="https://tuquequesoft.com.br">Tuquequesoft</a>
+</p>
 
-I thrive on building **robust, maintainable systems** that solve complex problems, combining clean code, thoughtful design, and operational reliability.
+<p align="center">
+  <a href="https://www.linkedin.com/in/jlescalonap/"><img src="https://img.shields.io/badge/LinkedIn-1B5E8C?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:jlescalonap@gmail.com"><img src="https://img.shields.io/badge/Email-2F3E4B?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://tuquequesoft.com.br"><img src="https://img.shields.io/badge/tuquequesoft.com.br-101B26?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"></a>
+</p>
 
----
-
-## 🚀 What I Do
-
-* Architect **modern web applications** using React, Next.js, Node.js, and TypeScript.
-* Design and implement **REST APIs**, third-party integrations, and blockchain workflows.
-* Develop **responsive, accessible, and high-performance UI/UX** with TailwindCSS and Framer Motion.
-* Implement secure authentication, authorization, data modeling, and core business logic.
-* Build modules for **real-time financial data, token pricing, DEX routing, and crypto transactions**.
-
----
-
-## 🧩 Professional Experience
-
-At **CitarTech**, I contribute to **financial, transactional, and crypto-focused platforms**. Key achievements include:
-
-* Delivering **real-time data modules and multi-chain integrations** for seamless asset management.
-* Developing **interactive dashboards** and system monitoring interfaces.
-* Enhancing **security, stability, and performance** of critical backend services.
-* Integrating modern web architectures and best practices to support scalable and maintainable codebases.
-
-My work spans **end-to-end system ownership**, from backend logic and database design to frontend interaction and Web3 integrations.
+<p align="center">
+  <em>I design, build and operate platforms that run in production — multi-tenancy,<br>
+  billing, auth, observability — and RAG agents with the evaluation harness to keep them honest.</em>
+</p>
 
 ---
 
-## 🛠 Core Technologies
+## What I'm building
 
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react\&logoColor=white\&style=flat)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js\&logoColor=white\&style=flat)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb\&logoColor=white\&style=flat)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript\&logoColor=white\&style=flat)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js\&logoColor=white\&style=flat)
-![NestJS](https://img.shields.io/badge/-NestJS-E0234E?logo=nestjs\&logoColor=white\&style=flat)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?logo=tailwindcss\&logoColor=white\&style=flat)
+### Multi-tenant learning platform · `in production`
+
+White-label B2B2C platform for a client, built as sole engineer.
+
+- **~350K lines of TypeScript** and **6,400+ automated tests** gating every merge
+- Four languages with zero translation drift
+- Per-tenant branding, subscriptions and granular RBAC
+- Tenant isolation enforced at the data layer
+- Encrypted per-tenant credentials with BIP-39 recovery
+
+`NestJS` `Next.js` `MongoDB` `Redis` `Railway` `Vercel`
+
+### EllaFirst · `in production` &nbsp;·&nbsp; CuidaMais · `awaiting launch`
+
+Two marketplaces built end to end — geolocation-based women's care services, and
+caregiver matching. Web and Expo mobile clients, ~1,200 commits as sole developer.
+
+`Next.js` `React 19` `Prisma` `PostgreSQL` `Expo`
+
+### layered_rag · `in development`
+
+Multi-tenant RAG agent platform. Provider-agnostic LLM layer with a 5-adapter
+fallback chain that **absorbed full model retirements at two providers with zero
+code changes**. Deterministic evaluation harness plus LLM-as-judge scoring.
+
+`Python` `LangChain` `ChromaDB` `FastAPI`
+
+### Client web delivery · `in production`
+
+Production sites for businesses in Brazil and the US through Tuquequesoft —
+built for speed, SEO and conversion. Recent work includes a US contractor's
+lead-generation platform with a 227-image optimization pipeline and local SEO
+with structured data.
+
+`Next.js` `TypeScript` `Tailwind`
 
 ---
 
-## 📚 Currently Expanding Into
+## Stack
 
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql\&logoColor=white\&style=flat)
-![Solidity](https://img.shields.io/badge/-Solidity-363636?logo=solidity\&logoColor=white\&style=flat)
-![Web3](https://img.shields.io/badge/-Web3-EF6820?logo=web3dotjs\&logoColor=white\&style=flat)
-![Swagger](https://img.shields.io/badge/-Swagger-85EA2D?logo=swagger\&logoColor=black\&style=flat)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker\&logoColor=white\&style=flat)
-![Ethers.js](https://img.shields.io/badge/-Ethers.js-1C1C1C?logo=ethereum\&logoColor=white\&style=flat)
-
----
-
-## 📬 Contact
-
-📧 **Email:** [jlescalonap@gmail.com](mailto:jlescalonap@gmail.com)
-🌐 **Website:** [https://tuquequesoft-landing.vercel.app/pt](https://tuquequesoft-landing.vercel.app/pt)
+| | |
+|---|---|
+| **Languages** | TypeScript · JavaScript · Python |
+| **Backend** | NestJS · Node.js · Express · REST · SSE · WebSockets |
+| **Frontend** | Next.js · React · Tailwind CSS |
+| **Data** | PostgreSQL · pgvector · MongoDB · Redis |
+| **AI / LLM** | RAG pipelines · embeddings · vector search · evaluation harnesses · LangChain · Claude / OpenAI / Groq / Gemini |
+| **Security** | JWT · OAuth2 · RBAC · multi-tenant isolation · rate limiting · OWASP |
+| **Infrastructure** | Docker · GitHub Actions · Railway · Vercel · AWS S3 · MongoDB Atlas |
+| **Blockchain** | Ethereum · BSC · Solana · TRON · WalletConnect |
 
 ---
 
-> Open to **remote or freelance opportunities** on impactful projects. I focus on **clean architecture, reliable delivery, and long-term maintainability**, while staying at the cutting edge of frontend, backend, and Web3 development.
+## Before this
 
-Thanks for visiting ✌️
+Five years at **Citar Tech** (2021–2025) building Web3 products: multi-chain
+payment engines, DEX routing across Ethereum, BSC, Solana and TRON, and the API
+security work that comes with moving other people's money.
+
+---
+
+<p align="center">
+  <strong>Available for backend, platform and AI engineering work</strong><br>
+  Brazil · LATAM · International &nbsp;|&nbsp; 🇪🇸 ES · 🇧🇷 PT · 🇬🇧 EN
+</p>
