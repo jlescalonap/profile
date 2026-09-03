@@ -32,10 +32,12 @@ White-label B2B2C platform for a client, built as sole engineer.
 
 `NestJS` `Next.js` `MongoDB` `Redis` `Railway` `Vercel`
 
-### EllaFirst · `in production` &nbsp;·&nbsp; CuidaMais · `awaiting launch`
+### [EllaFirst](https://ellafirst.com/en-US) · `in production`
 
-Two marketplaces built end to end — geolocation-based women's care services, and
-caregiver matching. Web and Expo mobile clients, ~1,200 commits as sole developer.
+**Client project.** Geolocation-based marketplace for verified beauty and care
+professionals, built end to end as sole developer — web and Expo mobile clients.
+A second marketplace for the same client is finished and awaiting their launch.
+~1,200 commits across both.
 
 `Next.js` `React 19` `Prisma` `PostgreSQL` `Expo`
 
